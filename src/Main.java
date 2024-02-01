@@ -1,11 +1,12 @@
+import java.awt.*;
 
 public class Main {
-    public static void main(String[] args) {
-        
-        System.out.printf("Hello and welcome!");
-        System.out.printf("Hello Welcome to Cambodia");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+
+    public static void main(String[] args){
+        Frame f = new Frame("Testing");
+        Button btn = new Button("Click");
+        f.setLayout(new FlowLayout());
+        f.setSize(500,500);
+        f.setVisible(true);
     }
 }
